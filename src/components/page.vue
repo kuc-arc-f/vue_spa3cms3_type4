@@ -7,6 +7,11 @@
         </router-link>
         <hr class="mt-2 mb-2" />        
         -->
+        <div class="page_head_wrap mt-2">
+            <i class="fas fa-home"></i>
+            > {{ title }}
+        </div>
+        <hr />                
         <h1>{{ title }}</h1>
         ID : {{ id }}<br />
         date : {{ create }}<br />
@@ -71,5 +76,7 @@ console.log( item )
 
 <!-- -->
 <style>
+.page_head_wrap{ font-size: 1.4rem; }
+
 </style>
 
